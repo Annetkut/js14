@@ -1,0 +1,116 @@
+.btn {
+    width: 180px;
+    height: 30px;
+    margin-top: 10px;
+
+    background-color: black;
+    color: white;
+    border: none;
+
+}
+
+.input {
+    width: 180px;
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    border-width: 1px;
+    box-sizing: border-box;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+
+
+.calc {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.calc__name {
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.result {
+    margin-top: 10px;
+}
+
+:focus::placeholder {
+    color: transparent;
+}
+
+.wrapper {
+    width: 50vw;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.cards-block {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    height: 250px;
+    width: 30%;
+    background: wheat;
+}
+
+.cards__name {
+    margin-top: 60px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.selected {
+    background-color: blue;
+}
+
+.slider__img {
+    width: 256px;
+}
+
+.slider__name {
+    margin-top: 60px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.slider {
+    width: 256px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.slider-line {
+    width: 256px;
+    width: 1024;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.btn__slider-next,
+.btn__slider-back {
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.slider__nav {
+    margin: auto;
+    width: 256px;
+    display: flex;
+    justify-content: space-between;
+}
